@@ -166,6 +166,7 @@ header ul li a {
 }
 .bg{
     position: absolute;
+    top: 15%;
     right: 0;
     max-width: 500px;
     animation: animateBg 8s ease-in-out infinite;
@@ -175,7 +176,7 @@ header ul li a {
         transform: translateY(0px);
     }
     50%{
-        transform: translateY(50px);
+        transform: translateY(5px);
     }
 }
 
@@ -191,7 +192,7 @@ header ul li a {
         transform: translateY(0px);
     }
     50%{
-        transform: translateY(-50px);
+        transform: translateY(-25px);
     }
 }
 
