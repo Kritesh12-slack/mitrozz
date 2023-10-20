@@ -68,7 +68,7 @@ header ul li a {
 }
 .content h2 {
     color: #333;
-    font-size: 5.5em;
+    font-size: 4.1em;
     font-weight: 700;
     transition: 0.5s;
 }
@@ -170,11 +170,11 @@ header ul li a {
     right: 0;
     max-height: 75vh;
     max-width: 35vw;
-    animation: animateBg 8s ease-in-out infinite;
+    animation: animateBg 8s ease-in-out infinite ;
 }
 @keyframes animateBg {
     0%,100%{
-        transform: translateY(0px);
+        transform: translateY(0);
     }
     50%{
         transform: translateY(5px);
@@ -194,7 +194,7 @@ header ul li a {
         transform: translateY(0px);
     }
     50%{
-        transform: translateY(-25px);
+        transform: translateY(-5px);
     }
 }
 
